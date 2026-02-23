@@ -37,9 +37,9 @@ module sky130_fd_sc_ls__decaphetap_2 (
     VPB
 );
 
-    input VPWR;
-    input VGND;
-    input VPB ;
+    input wire VPWR;
+    input wire VGND;
+    input wire VPB ;
 endmodule
 
 `default_nettype wire

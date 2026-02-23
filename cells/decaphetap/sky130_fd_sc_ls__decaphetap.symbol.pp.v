@@ -34,9 +34,9 @@
 (* blackbox *)
 module sky130_fd_sc_ls__decaphetap (
     //# {{power|Power}}
-    input VPB ,
-    input VPWR,
-    input VGND
+    input wire VPB ,
+    input wire VPWR,
+    input wire VGND
 );
 endmodule
 

@@ -34,10 +34,10 @@
 (* blackbox *)
 module sky130_fd_sc_ls__fill_diode (
     //# {{power|Power}}
-    input VPB ,
-    input VPWR,
-    input VGND,
-    input VNB
+    input wire VPB ,
+    input wire VPWR,
+    input wire VGND,
+    input wire VNB
 );
 endmodule
 
